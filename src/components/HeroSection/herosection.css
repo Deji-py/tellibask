@@ -1,0 +1,68 @@
+
+
+.wrapper{
+    height:40vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+ .mov__det{
+    position: absolute;
+    left: 40%;
+    top: 30%;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-det{
+    opacity: 0.5;
+ color: whitesmoke;
+ text-align: center;
+ font-size: 14px;
+}
+
+.bigTitle{
+    font-size: 50px;
+    font-family: "poppins", cursive;
+    color: white;
+}
+
+
+.cta-btns{
+    padding: 20px 40px 20px 40px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.watch__cta{
+     background: linear-gradient(60deg,var(--telli-red), orangered);
+     color: white;
+     width: 300px;
+     text-align: center;
+     border-radius: 100px;
+
+}
+
+.prev__cta{
+    color: white;
+    font-weight: 800;
+    opacity: 0.8;
+    background-color: var( --blend-dark);
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+}
+.coverArt{
+    width: 100%;
+    box-shadow: inset 0px -20px 10px black;
+    opacity: 0.3;
+    filter: blur(2px);
+}

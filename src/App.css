@@ -1,0 +1,143 @@
+
+@media only screen and (max-width:2000px){
+   .cta{
+    font-size: 1rem;
+    font-weight: bolder;
+    
+   }
+
+   .navbar{
+    justify-content: space-evenly !important;
+   }
+
+
+  .Home__layout .Home-layout__two-col{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+}
+
+@media only screen and (max-width:1150px){
+  .cta{
+    font-size: 1rem;
+    font-weight: bolder;
+    
+   }
+  .Home__layout .Home-layout__two-col{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+}
+
+@media only screen and (max-width:650px){
+  .cta{
+    font-size: 0.8rem;
+    font-weight: bolder;
+   }
+
+ 
+   
+   .navbar{
+    height: 60px !important;
+    justify-content: space-between !important;
+   }
+ .logo-name{
+  font-size: 1rem;
+ }
+  .Home__layout .Home-layout__two-col{
+    display: grid;
+    grid-template-columns: 1fr;
+
+  }
+
+  .sub-det{
+    font-size: 0.6rem !important;
+    padding: 0px 50px 0px 50px ;
+  }
+
+  .watch__cta{
+    width: 200px !important;
+  }
+
+  .prev__cta{
+    margin-top: 10px;
+
+  }
+
+
+  .cta-btns{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px !important;
+    width: 100% !important;
+  }
+  .mov__det{
+    left: 0px !important;
+    margin-top: 150px;
+
+    width: 100% !important;
+  }
+
+  .coverArt{
+    height: 100%;
+  }
+
+  .movie{
+    left: unset !important;
+    top: 100px !important;
+    height: 250px !important;
+    box-shadow: none !important;
+  }
+
+
+
+  .Avatar{
+    margin-left: 30px;
+  }
+
+  .navlist, .signup__btn{
+    display: none;
+  }
+  .signup__btn{
+    padding: 10px 20px 10px !important;
+  }
+
+  .movTitle{
+    font-size: 15px;
+  }
+
+  .wrapper{
+    flex-direction: column !important;
+    height: 50vh !important;
+  }
+
+  .popular{
+    margin-top: 400px!important;
+  }
+
+  .popular__category{
+    font-size: medium;
+    transform: translate(30px,390px) !important;
+  }
+
+  .rating{
+    margin-top: 10px;
+  } 
+
+  .bigTitle{
+    font-size: 30px !important;
+    padding: 20px;
+    width: 100%;
+    left: 0 !important;
+    top: 50% !important;
+    text-align: center;
+  }
+
+  .logo{
+    width: 30px !important;
+  }
+  
+}

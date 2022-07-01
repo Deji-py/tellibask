@@ -1,0 +1,42 @@
+.navbar{
+    padding: 20px;
+    height: 80px;
+    color: white;
+    justify-content: space-between;
+    background-color: var(--bg-color);
+    position: sticky;
+    z-index: 10;
+    top: 0;
+    position: -webkit-sticky;
+}
+
+.navlist{
+    list-style: none;
+}
+
+.navlist li{
+    margin: 10px;
+}
+
+.right{
+    flex: 0.5;
+}
+
+
+.login__btn , .signup__btn{
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+    border-radius: 100px;
+}
+ .signup__btn{
+    background: linear-gradient(20deg, red, orangered);
+ }
+.login__btn{
+    margin-left: 20px;
+    background-color: var(--faded-blend-gray) ;
+}
+
+
+.logo{
+    width: 40px;
+}

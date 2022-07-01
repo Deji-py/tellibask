@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="103" height="176" viewBox="0 0 103 176">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fe4500"/>
+      <stop offset="1" stop-color="#f50859"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(-77 -126)">
+    <path id="Polygon_1" data-name="Polygon 1" d="M50.963,29.585a25,25,0,0,1,41.074,0l23.713,34.159A25,25,0,0,1,95.213,103H47.787A25,25,0,0,1,27.251,63.744Z" transform="translate(180 159) rotate(90)" fill="url(#linear-gradient)"/>
+    <path id="Polygon_2" data-name="Polygon 2" d="M50.963,29.585a25,25,0,0,1,41.074,0l23.713,34.159A25,25,0,0,1,95.213,103H47.787A25,25,0,0,1,27.251,63.744Z" transform="translate(180 126) rotate(90)" fill="#2e00f1" style="mix-blend-mode: multiply;isolation: isolate"/>
+    <path id="Polygon_3" data-name="Polygon 3" d="M18.9,5.885a5,5,0,0,1,8.2,0L40.523,25.141A5,5,0,0,1,36.421,33H9.579a5,5,0,0,1-4.1-7.859Z" transform="translate(129.035 191.5) rotate(90)" fill="#fff"/>
+  </g>
+</svg>

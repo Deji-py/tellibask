@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: 'Comfortaa', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-color);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.movieslist{
+  width: 100%;
+  margin-top: 250px;
+  overflow-x: scroll;
+  justify-content:left;
+}
+
+.movieslist::-webkit-scrollbar{
+  display: none;
+}
+
+
+.flex__wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grid__layout{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+:root{
+  --bg-color:#000a14;
+  --blend-light:#0066cc;
+  --blend-dark:hwb(210 18% 78%);
+  --telli-red:hsl(4, 100%, 50%);
+}
+
+.cta{
+  all: unset;
+  cursor: pointer;
+  padding: 10px;
+}
+
+
