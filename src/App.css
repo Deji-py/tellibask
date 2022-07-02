@@ -111,16 +111,16 @@
 
   .wrapper{
     flex-direction: column !important;
-    height: 50vh !important;
+    height: 40vh !important;
   }
 
   .popular{
-    margin-top: 400px!important;
+    margin-top: 15px!important;
   }
 
   .popular__category{
     font-size: medium;
-    transform: translate(30px,390px) !important;
+    transform: translate(30px,10px) !important;
   }
 
   .rating{
@@ -134,6 +134,25 @@
     left: 0 !important;
     top: 50% !important;
     text-align: center;
+  }
+
+  .channels{
+    margin-top: 500px !important;
+  }
+
+  .livebtn{
+    margin-left: 30px !important;
+  }
+
+  .liveDiscussion{
+    position: absolute;
+    top: 45% !important;
+    margin-left: 90px;
+  }
+
+  .channelcard{
+    width: 200px !important;
+    height: 100px !important;
   }
 
   .logo{

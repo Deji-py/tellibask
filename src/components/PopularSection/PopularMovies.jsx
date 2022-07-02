@@ -9,7 +9,7 @@ function PopularMovies() {
       <h3
         className="popular__category"
         style={{
-          transform: "translate(30px, 240px)",
+          transform: "translate(30px, 40px)",
           color: "orange",
           fontSize: "medium",
         }}

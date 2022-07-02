@@ -7,9 +7,10 @@ import img3 from "../../Assets/Pngs/img3.jpg";
 import likesound from "../../Assets/sounds/clickLike.wav";
 import { FaPlay, FaRegAngry, FaRegThumbsUp, FaTeamspeak } from "react-icons/fa";
 import { RiHeartLine, RiHeartFill } from "react-icons/ri";
-import { Avatar, AvatarGroup, Rating } from "@mui/material";
+import { BsHandThumbsDown, BsHandThumbsDownFill } from "react-icons/bs";
+import { Avatar, AvatarGroup, Button, Rating } from "@mui/material";
 import MovieCard from "../../SubComponent/MovieCard";
-import kick from "../../Assets/Pngs/morbius.jpg";
+import kick from "../../Assets/Pngs/peakpx.jpg";
 import Chip from "@mui/material/Chip";
 import Stack from "@mui/material/Stack";
 import "./herosection.css";
@@ -30,16 +31,15 @@ function HeroSection() {
     setLiked(!liked);
   }
 
+  if (followed === true) {
+    bgcolor = "#0066cc";
+    textcontent = "following";
+    opacity = "1";
+  } else {
+    bgcolor = "#2e3338";
+    textcontent = "follow";
+  }
 
-    if (followed === true) {
-      bgcolor = "#0066cc";
-      textcontent = "following"
-      opacity = "1"
-    } else {
-      bgcolor = "#2e3338";
-      textcontent = "follow"
-    }
-  
   return (
     <div className="wrapper">
       <img src={kick} alt="cover" className="coverArt" />
@@ -68,9 +68,10 @@ function HeroSection() {
             <div className="flex__wrapper rating">
               <button
                 className="cta prev__cta "
-                onClick={() => {setFollowed(!followed)
+                onClick={() => {
+                  setFollowed(!followed);
                 }}
-                style={{ backgroundColor:bgcolor, opacity:opacity}}
+                style={{ backgroundColor: bgcolor, opacity: opacity }}
               >
                 {textcontent} <FaTeamspeak style={{ marginLeft: "5px" }} />{" "}
               </button>
@@ -103,15 +104,26 @@ function HeroSection() {
               onClick={() => {
                 handleClickLike();
               }}
-              style={{ flexDirection: "column"}}
+              style={{ flexDirection: "column" }}
             >
               {!liked ? (
-                <RiHeartLine size={30} color="#F20042" />
+                <RiHeartLine size={30} color="yellow" />
               ) : (
-                <RiHeartFill className="liked" size={32} />
+                <RiHeartFill className="liked" size={32} color="yellow" />
               )}
               <h5 style={{ marginTop: "5px" }}>25.6M</h5>
             </div>
+            <Button variant="outlined" size="small" sx={{margin:"0px 20px 0px 20px"}}>About Movie</Button>
+            <div
+              className="reactLike flex__wrapper"
+              style={{ flexDirection: "column" }}
+            >
+              <BsHandThumbsDown className="liked" size={32} color="red" />
+
+
+              <h5 style={{ marginTop: "5px" }}>0</h5>
+            </div>
+            
           </Stack>
         </div>
       </div>

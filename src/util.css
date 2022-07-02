@@ -13,7 +13,7 @@ body {
 
 .movieslist{
   width: 100%;
-  margin-top: 250px;
+  margin-top: 50px;
   overflow-x: scroll;
   justify-content:left;
 }
@@ -38,8 +38,8 @@ body {
 :root{
   --bg-color:#000a14;
   --blend-light:#0066cc;
-  --blend-dark:hwb(210 18% 78%);
-  --telli-red:hsl(4, 100%, 50%);
+  --blend-dark:#2e3338;
+  --telli-red:#ff1100;
 }
 
 .cta{

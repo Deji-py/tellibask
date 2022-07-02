@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "../components/Footer";
+import Channels from "../components/HeroSection/channels/Channels";
 import HeroSection from "../components/HeroSection/HeroSection";
 import LatestTrailers from "../components/LatestTrailers";
 import Navbar from "../components/Navbar/Navbar";
@@ -13,7 +14,7 @@ function Home() {
       <Navbar />
       
       <HeroSection />
-
+       <Channels/>
       <PopularMovies />
       <TopSeries />
       <div className="Home-layout__two-col">
