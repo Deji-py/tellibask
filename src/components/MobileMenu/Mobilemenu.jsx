@@ -25,7 +25,7 @@ function Mobilemenu() {
             </Link>
           </IconButton>
            <IconButton>
-            <Link to="/" style={{ textDecoration: "none" }}>
+            <Link to="/hub" style={{ textDecoration: "none" }}>
               <FaHubspot/>
             </Link>
           </IconButton>
