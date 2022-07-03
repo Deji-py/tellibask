@@ -1,8 +1,8 @@
 import React from "react";
-import SubmovieCard from "../../SubComponent/SubmovieCard";
-import peakpx from "../../Assets/Pngs/peakpx.jpg";
-import cover from "../../Assets/Pngs/cover.jpg";
-import kick from "../../Assets/Pngs/kick.jpg";
+import SubmovieCard from "../../../SubComponent/SubmovieCard";
+import peakpx from "../../../Assets/Pngs/peakpx.jpg";
+import cover from "../../../Assets/Pngs/cover.jpg";
+import kick from "../../../Assets/Pngs/kick.jpg";
 function PopularMovies() {
   return (
     <div style={{ overflow: "hidden" }}>

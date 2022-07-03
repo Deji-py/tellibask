@@ -1,16 +1,12 @@
 import React, { useState } from "react";
-import img1 from "../../Assets/Pngs/img1.jpg";
-import img4 from "../../Assets/Pngs/img4.jpg";
-import img2 from "../../Assets/Pngs/img2.webp";
-import img3 from "../../Assets/Pngs/img3.jpg";
 
-import likesound from "../../Assets/sounds/clickLike.wav";
-import { FaPlay, FaRegAngry, FaRegThumbsUp, FaTeamspeak } from "react-icons/fa";
+import likesound from "../../../Assets/sounds/clickLike.wav";
+import { FaPlay,FaTeamspeak } from "react-icons/fa";
 import { RiHeartLine, RiHeartFill } from "react-icons/ri";
-import { BsHandThumbsDown, BsHandThumbsDownFill } from "react-icons/bs";
-import { Avatar, AvatarGroup, Button, Rating } from "@mui/material";
-import MovieCard from "../../SubComponent/MovieCard";
-import kick from "../../Assets/Pngs/peakpx.jpg";
+import { BsHandThumbsDown} from "react-icons/bs";
+import { Button} from "@mui/material";
+import MovieCard from "../../../SubComponent/MovieCard";
+import kick from "../../../Assets/Pngs/peakpx.jpg";
 import Chip from "@mui/material/Chip";
 import Stack from "@mui/material/Stack";
 import "./herosection.css";
@@ -42,7 +38,6 @@ function HeroSection() {
 
   return (
     <div className="wrapper">
-      <img src={kick} alt="cover" className="coverArt" />
       <div className="mov-det">
         <MovieCard />
         <div className="mov__det">

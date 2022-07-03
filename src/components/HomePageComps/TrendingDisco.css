@@ -1,0 +1,32 @@
+.Active__trend{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    width: 55px;
+    animation-duration: 5s;
+    transition: 0.8s ease-in-out;
+    animation-name: changecolor;
+    animation-iteration-count: infinite;
+    border-radius: 50%;
+    border: solid 3px var(--blend-light)
+}
+
+.avt{
+  border: solid 3px transparent;
+}
+
+.Trend__Wrapper{
+    display: grid;
+    width: 30%;
+    padding: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.act__wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}

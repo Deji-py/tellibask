@@ -16,6 +16,7 @@
     grid-template-columns: 1fr 1fr;
   }
   
+  
 }
 
 @media only screen and (max-width:1150px){
@@ -24,6 +25,7 @@
     font-weight: bolder;
     
    }
+
   .Home__layout .Home-layout__two-col{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -37,8 +39,29 @@
     font-weight: bolder;
    }
 
- 
-   
+   .Trend__Wrapper{
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    background-color: var(--bg-color-lighter);
+    left: 0px !important;
+    width: 70px !important;
+    height: 100%;
+    box-shadow: 2px 2px 8px black;
+    padding-right: 10px;
+    position: fixed;
+   }
+
+
+   .act__wrapper{
+    display: flex !important;
+    flex-direction: column;
+  }
+
+
+
+
    .navbar{
     height: 60px !important;
     justify-content: space-between !important;
@@ -91,9 +114,6 @@
     height: 250px !important;
     box-shadow: none !important;
   }
-
-
-
   .Avatar{
     margin-left: 30px;
   }

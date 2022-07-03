@@ -1,20 +1,20 @@
 import React from "react";
 import Footer from "../components/Footer";
-import Channels from "../components/HeroSection/channels/Channels";
-import HeroSection from "../components/HeroSection/HeroSection";
+import Channels from "../components/BashHubComps/HeroSection/channels/Channels";
+import HeroSection from "../components/BashHubComps/HeroSection/HeroSection";
 import LatestTrailers from "../components/LatestTrailers";
 import Navbar from "../components/Navbar/Navbar";
-import PopularMovies from "../components/PopularSection/PopularMovies";
+import PopularMovies from "../components/BashHubComps/PopularSection/PopularMovies";
+import TopSeries from "../components/BashHubComps/TopSeries/TopSeries";
 import PreviewTrailer from "../components/PreviewTrailer";
-import TopSeries from "../components/TopSeries/TopSeries";
+import Mobilemenu from "../components/MobileMenu/Mobilemenu";
 
-function Home() {
+function Bashhub() {
   return (
     <div className="Home__layout">
-      <Navbar />
-      
+      <Mobilemenu/>
       <HeroSection />
-       <Channels/>
+      <Channels />
       <PopularMovies />
       <TopSeries />
       <div className="Home-layout__two-col">
@@ -26,4 +26,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Bashhub;

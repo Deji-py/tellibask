@@ -5,6 +5,7 @@
     width: 100%;
     overflow: hidden;
     display: flex;
+    background:linear-gradient(to bottom, var(--blend-light), var(--bg-color));
     justify-content: center;
     align-items: center;
 }
@@ -62,7 +63,7 @@
 }
 .coverArt{
     width: 100%;
+    opacity: 0.1;
     box-shadow: inset 0px -20px 10px black;
-    opacity: 0.3;
-    filter: blur(2px);
+    filter: blur(5px);
 }
