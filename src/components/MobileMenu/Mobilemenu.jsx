@@ -9,7 +9,7 @@ import { IconButton } from "@mui/material";
 const menuWrapperstyle = {
   position: "fixed",
   zIndex: "25",
-  top: "70%",
+  top: "60%",
   left: "80%",
   width: "50px",
 };
