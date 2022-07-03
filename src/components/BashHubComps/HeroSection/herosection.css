@@ -5,7 +5,7 @@
     width: 100%;
     overflow: hidden;
     display: flex;
-    background:linear-gradient(to bottom, var(--blend-light), var(--bg-color));
+    background:linear-gradient(to bottom, var(--blend-lighter), var(--bg-color));
     justify-content: center;
     align-items: center;
 }
