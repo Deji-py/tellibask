@@ -10,7 +10,7 @@ const menuWrapperstyle = {
   position: "fixed",
   zIndex: "25",
   top: "60%",
-  left: "80%",
+  left: "1.5rem",
   width: "50px",
 };
 
@@ -20,17 +20,17 @@ function Mobilemenu() {
       <div className="menu">
         <ul>
           <IconButton>
-            <Link to="/" style={{ textDecoration: "none" }}>
+            <Link to="/" style={{ textDecoration: "none", color:"black" }}>
               <BiHomeCircle />
             </Link>
           </IconButton>
            <IconButton>
-            <Link to="/hub" style={{ textDecoration: "none" }}>
+            <Link to="/hub" style={{ textDecoration: "none", color:"black" }}>
               <FaHubspot/>
             </Link>
           </IconButton>
           <IconButton>
-            <Link to="/" style={{ textDecoration: "none" }}>
+            <Link to="/" style={{ textDecoration: "none", color:"black" }}>
               <BiHomeCircle />
             </Link>
           </IconButton>
@@ -39,7 +39,7 @@ function Mobilemenu() {
       </div>
       <div className="createpostbtn">
         <button className="create">
-          <RiVoiceprintFill size={35} color="white" />
+          <RiVoiceprintFill size={30} color="white" />
         </button>
       </div>
     </div>

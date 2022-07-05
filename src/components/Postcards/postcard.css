@@ -1,0 +1,71 @@
+.postcard{
+    width: 75%;
+    height: 300px;
+    background-color: whitesmoke;
+    margin-top: 30px;
+    padding: 10px;
+    transform: translateX(-10px);
+    box-shadow: 0px 0px 8px rgb(209, 209, 209);
+}
+
+.postcounter{
+    font-size: 10px;
+    transform: translateY(-8px);
+}
+
+
+
+
+
+.postimg{
+    background-color: rgb(228, 228, 228);
+    height: 50%;
+}
+.reactioncounter{
+    font-size: 10px !important;
+}
+.postcta{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.r1, .r2, .r3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.userpost{
+    padding: 10px;
+}
+
+.user{
+    margin-left: 5px;
+}
+.postcaption{
+    height: 30px;
+    margin: 5px 10px 5px 10px;
+}
+
+.followbtn {
+    background-color: lightgray;
+
+}
+
+.join{
+    all: unset;
+    background-color: var(--blend-light);
+    color: white;
+    font-size: 14px;
+    height: 30px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    border-radius: 100px;
+}
+
+

@@ -38,6 +38,7 @@ function HeroSection() {
 
   return (
     <div className="wrapper">
+      <img src={kick} alt="kick" className="bgimg" />
       <div className="mov-det">
         <MovieCard />
         <div className="mov__det">
@@ -45,7 +46,7 @@ function HeroSection() {
           <h3
             style={{
               fontFamily: "'poppins', cursive",
-              color: "lightgray",
+              color: "black",
               transform: "translateY(-20px)",
             }}
           >
@@ -72,7 +73,7 @@ function HeroSection() {
               </button>
               <div
                 className="flex__wrapper rating"
-                style={{ color: "white", marginLeft: "30px" }}
+                style={{ color: "black", marginLeft: "30px" }}
               >
                 <MdOutlineStar color="orange" />
                 <h5>7.6</h5>
@@ -82,7 +83,7 @@ function HeroSection() {
           <Stack direction="row" spacing={1} mt={2}>
             <Chip
               label="2.5m Streams"
-              sx={{ background: "#333333", color: "lightgray", opacity: "0.8" }}
+              sx={{ background: "#c5c5c5", color: "black", opacity: "0.8" }}
               size="small"
               icon={<FaPlay size={12} />}
             />
@@ -93,7 +94,7 @@ function HeroSection() {
               size="small"
             />
           </Stack>
-          <Stack direction="row" spacing={1} mt={2} color="#fff">
+          <Stack direction="row" spacing={1} mt={2} color="black">
             <div
               className="reactLike flex__wrapper"
               onClick={() => {

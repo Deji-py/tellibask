@@ -5,12 +5,20 @@
     width: 100%;
     overflow: hidden;
     display: flex;
-    background:linear-gradient(to bottom, var(--blend-lighter), var(--bg-color));
+    background:linear-gradient(to bottom,var(--bg-color), var(--bg-color));
     justify-content: center;
     align-items: center;
+    color: black;
 }
 
 
+
+.bgimg{
+    opacity: 0.5;
+    filter: blur(100px);
+    height: 50%;
+    width: 100%;
+}
 
  .mov__det{
     position: absolute;
@@ -25,15 +33,15 @@
 
 .sub-det{
     opacity: 0.5;
- color: whitesmoke;
+ color:black;
  text-align: center;
- font-size: 14px;
+ font-size: 15px;
 }
 
 .bigTitle{
     font-size: 50px;
     font-family: "poppins", cursive;
-    color: white;
+    color:black;
 }
 
 
@@ -45,7 +53,7 @@
 
 .watch__cta{
      background: linear-gradient(60deg,var(--telli-red), orangered);
-     color: white;
+     color:white;
      width: 300px;
      text-align: center;
      border-radius: 100px;

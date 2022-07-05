@@ -10,6 +10,7 @@ import PreviewTrailer from "../components/PreviewTrailer";
 import Mobilemenu from "../components/MobileMenu/Mobilemenu";
 
 function Bashhub() {
+
   return (
     <div className="Home__layout">
       <Mobilemenu/>

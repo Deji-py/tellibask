@@ -20,7 +20,7 @@ function Navbar() {
           <li>MovTrends</li>
           <li>Shows</li>
         </ul>
-        <Badge badgeContent={4} color="success">
+        <Badge badgeContent={4} color="warning">
         <MdNotifications size={25}/>
         </Badge>
         <div className="Avatar">
