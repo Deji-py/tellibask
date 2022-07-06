@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Comfortaa', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--bg-color);
@@ -36,7 +36,7 @@ body {
 }
 
 :root{
-  --bg-color:#fff;
+  --bg-color:#050d11;
   --bg-color-lighter:hsl(210, 100%, 6%);
   --blend-light:#0066cc;
   --blend-dark:#2e3338;

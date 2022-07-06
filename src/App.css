@@ -1,16 +1,4 @@
 
-.mainpage{
-  display: flex;
-}
-
-
-.posts{
-  width:95%;
-}
-
-
-
-
 
 @media only screen and (max-width:2000px){
    .cta{
@@ -50,19 +38,12 @@
   .cta{
     font-size: 0.8rem;
     font-weight: bolder;
+
    }
 
 
-   .postcard{
-    margin-left: 30% !important;
-   }
 
-   
-
-   .act__wrapper{
-    display: flex !important;
-    flex-direction: column;
-  }
+  
 
 
 
@@ -89,10 +70,7 @@
     width: 200px !important;
   }
 
-  .prev__cta{
-    margin-top: 10px;
 
-  }
 
 
   .cta-btns{

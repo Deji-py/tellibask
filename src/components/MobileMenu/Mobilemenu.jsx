@@ -6,31 +6,28 @@ import {FaHubspot } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { IconButton } from "@mui/material";
 
-const menuWrapperstyle = {
-  position: "fixed",
-  zIndex: "25",
-  top: "60%",
-  left: "1.5rem",
-  width: "50px",
-};
+
+
+
 
 function Mobilemenu() {
+  
   return (
-    <div className="menu__wrapper" style={menuWrapperstyle}>
-      <div className="menu">
+    <div className="menu__wrapper menu_wrap">
+      <div className="menu" >
         <ul>
           <IconButton>
-            <Link to="/" style={{ textDecoration: "none", color:"black" }}>
+            <Link to="/"style={{textDecoration:"none", color:"white"}}>
               <BiHomeCircle />
             </Link>
           </IconButton>
            <IconButton>
-            <Link to="/hub" style={{ textDecoration: "none", color:"black" }}>
+            <Link to="/hub" style={{textDecoration:"none", color:"white"}} >
               <FaHubspot/>
             </Link>
           </IconButton>
           <IconButton>
-            <Link to="/" style={{ textDecoration: "none", color:"black" }}>
+            <Link to="/" style={{textDecoration:"none", color:"white"}}>
               <BiHomeCircle />
             </Link>
           </IconButton>

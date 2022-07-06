@@ -11,30 +11,19 @@ import Chip from "@mui/material/Chip";
 import Stack from "@mui/material/Stack";
 import "./herosection.css";
 import { MdOutlineStar } from "react-icons/md";
+import Follwedbtn from "../../../Follwedbtn";
 
 function HeroSection() {
   const [liked, setLiked] = useState(false);
-  const [followed, setFollowed] = useState(false);
+
 
   const audio = new Audio(likesound);
-
-  var bgcolor = "#2e3338";
-  var textcontent = "follow";
-  var opacity = "0.8";
 
   function handleClickLike() {
     audio.play();
     setLiked(!liked);
   }
 
-  if (followed === true) {
-    bgcolor = "#0066cc";
-    textcontent = "following";
-    opacity = "1";
-  } else {
-    bgcolor = "#2e3338";
-    textcontent = "follow";
-  }
 
   return (
     <div className="wrapper">
@@ -46,7 +35,7 @@ function HeroSection() {
           <h3
             style={{
               fontFamily: "'poppins', cursive",
-              color: "black",
+              color: "white",
               transform: "translateY(-20px)",
             }}
           >
@@ -62,28 +51,21 @@ function HeroSection() {
             <button className="cta watch__cta">Watch Trailer </button>
 
             <div className="flex__wrapper rating">
-              <button
-                className="cta prev__cta "
-                onClick={() => {
-                  setFollowed(!followed);
-                }}
-                style={{ backgroundColor: bgcolor, opacity: opacity }}
-              >
-                {textcontent} <FaTeamspeak style={{ marginLeft: "5px" }} />{" "}
-              </button>
+                <Follwedbtn/>
               <div
                 className="flex__wrapper rating"
-                style={{ color: "black", marginLeft: "30px" }}
+                style={{ color: "white", marginLeft: "30px" }}
               >
                 <MdOutlineStar color="orange" />
                 <h5>7.6</h5>
               </div>
+              
             </div>
           </div>
           <Stack direction="row" spacing={1} mt={2}>
             <Chip
               label="2.5m Streams"
-              sx={{ background: "#c5c5c5", color: "black", opacity: "0.8" }}
+              sx={{ background: "#c5c5c5", color: "white", opacity: "0.8" }}
               size="small"
               icon={<FaPlay size={12} />}
             />
@@ -94,7 +76,7 @@ function HeroSection() {
               size="small"
             />
           </Stack>
-          <Stack direction="row" spacing={1} mt={2} color="black">
+          <Stack direction="row" spacing={1} mt={2} color="white">
             <div
               className="reactLike flex__wrapper"
               onClick={() => {

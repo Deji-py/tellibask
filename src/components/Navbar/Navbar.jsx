@@ -1,13 +1,20 @@
 import React from "react";
 import Avatar from "@mui/material/Avatar";
 import "./navbar.css";
-import { MdMenu, MdNotifications } from "react-icons/md";
+import {MdNotifications } from "react-icons/md";
 import profile from "../../Assets/Pngs/profile.jpg";
 import logo from "../../Assets/Svgs/Logo.svg";
 import { Badge } from "@mui/material";
 
+
+
+
+
+
 function Navbar() {
-  return (
+
+    return (
+
     <nav className="navbar flex__wrapper">
       <div className="left flex__wrapper">
         <img src={logo} alt="tellibash-logo" className="logo" />
