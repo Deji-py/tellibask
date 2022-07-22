@@ -1,7 +1,7 @@
 import React from "react";
 import "./mobilemenu.css";
-import {BiHomeCircle } from "react-icons/bi";
-import { RiVoiceprintFill } from "react-icons/ri";
+import {BiHomeCircle, BiUser } from "react-icons/bi";
+import { RiVoiceprintFill} from "react-icons/ri";
 import {FaHubspot } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { IconButton } from "@mui/material";
@@ -28,16 +28,18 @@ function Mobilemenu() {
           </IconButton>
           <IconButton>
             <Link to="/" style={{textDecoration:"none", color:"white"}}>
-              <BiHomeCircle />
+              <BiUser/>
             </Link>
           </IconButton>
 
         </ul>
       </div>
       <div className="createpostbtn">
+        <Link to={"/space"} >
         <button className="create">
           <RiVoiceprintFill size={30} color="white" />
         </button>
+        </Link>
       </div>
     </div>
   );

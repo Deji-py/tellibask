@@ -1,16 +1,54 @@
 
 
-@media only screen and (max-width:2000px){
+@media only screen and (min-width:1000px){
    .cta{
     font-size: 1rem;
     font-weight: bolder;
     
    }
+   .postcard{
+    width: 40% !important;
+   }
+.posts{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu_wrap{
+  display: none !important;
+}
+.Trend__Wrapper{
+  position: fixed;
+  z-index: 2000;
+  top: 10%;
+  margin: 50px;
+  height: 100%;
+ 
+   width: 30% !important;
+   overflow-y: scroll !important;
+}
+
+.storycard{
+  width: 100px!important;
+  height: 100px !important;
+}
+
+.stories{
+  display: flex;
+  gap: 20px ;
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
    .navbar{
     justify-content: space-evenly !important;
    }
 
+ 
 
   .Home__layout .Home-layout__two-col{
     display: grid;
@@ -27,6 +65,10 @@
     
    }
 
+
+
+
+
   .Home__layout .Home-layout__two-col{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -34,7 +76,7 @@
   
 }
 
-@media only screen and (max-width:650px){
+@media only screen and (max-width:950px){
   .cta{
     font-size: 0.8rem;
     font-weight: bolder;

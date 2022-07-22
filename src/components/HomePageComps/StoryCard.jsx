@@ -2,7 +2,7 @@ import { Avatar, LinearProgress } from "@mui/material";
 import React from "react";
 
 import "./Storycard.css";
-import storypost from "../../Assets/Pngs/cartoon.jpg";
+import storypost from "../../Assets/Pngs/guy.png";
 import profile from "../../Assets/Pngs/profile.jpg";
 function StoryCard() {
   return (

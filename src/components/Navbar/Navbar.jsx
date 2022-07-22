@@ -5,11 +5,15 @@ import {MdNotifications } from "react-icons/md";
 import profile from "../../Assets/Pngs/profile.jpg";
 import logo from "../../Assets/Svgs/Logo.svg";
 import { Badge } from "@mui/material";
+import { Link } from "react-router-dom";
 
 
 
 
-
+const linkstyle = {
+  textDecoration:"none",
+  color:"white"
+}
 
 function Navbar() {
 
@@ -22,10 +26,15 @@ function Navbar() {
       </div>
       <div className="right flex__wrapper">
         <ul className="navlist flex__wrapper">
+          <Link to ={"/"} style={linkstyle}>
           <li>Home</li>
-          <li>BashHub</li>
-          <li>MovTrends</li>
-          <li>Shows</li>
+          </Link>
+          <Link to ={"/hub"} style={linkstyle}>
+          <li>Hub</li>
+          </Link>
+          <Link to ={"/space"} style={linkstyle}>
+          <li>Space</li>
+          </Link>
         </ul>
         <Badge badgeContent={4} color="warning">
         <MdNotifications size={25}/>

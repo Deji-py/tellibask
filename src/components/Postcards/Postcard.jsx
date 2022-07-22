@@ -3,30 +3,30 @@ import "./postcard.css";
 import Avatar from "@mui/material/Avatar";
 import { IconButton } from "@mui/material";
 import { AiFillHeart } from "react-icons/ai";
-import { BsSoundwave } from "react-icons/bs";
+import { BsSoundwave, BsThreeDotsVertical } from "react-icons/bs";
 import { FaComments } from "react-icons/fa";
-import kick from "../../Assets/Pngs/profile.jpg"
 import { RiVoiceprintFill } from "react-icons/ri";
 import Follwedbtn from "../../Follwedbtn"
 
-
-
-function Postcard() {
+function Postcard({postimage, profilepic}) {
   return (
     <div className="postcard" >
       <div className="userpost flex__wrapper">
         <div className="userdetails flex__wrapper">
-          <Avatar src="" alt="David" />
+          <Avatar src={profilepic} alt="David" />
 
           <div className="user">
             <h5>Username</h5>
             <p>7:15pm</p>
           </div>
         </div>
+        <div className="flex__wrapper" >
         <Follwedbtn/>
+        <  BsThreeDotsVertical color="gray" style={{marginLeft:"10px"}}/>
+        </div>
       </div>
       <div className="postimg__wrapper">
-        <img src={kick} alt="bg" className="postimg" />
+        <img src={postimage} alt="bg" className="postimg" />
       </div>
       <div className="postcaption">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti earum tempora, eum quisquam, corporis sequi, id blanditiis nostrum sint perspiciatis dolor aspernatur culpa dicta assumenda dolorum nesciunt odit unde. Esse! </p>
