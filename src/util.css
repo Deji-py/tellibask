@@ -36,8 +36,8 @@ body {
 }
 
 :root{
-  --bg-color:#050d11;
-  --bg-color-lighter:hsl(210, 100%, 6%);
+  --bg-color:#080808;
+  --bg-color-lighter:hsl(0, 0%, 7%);
   --blend-light:#0066cc;
   --blend-dark:#2e3338;
   --telli-red:#ff1100;
